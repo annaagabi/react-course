@@ -1,18 +1,44 @@
-function Filho ({approved}){
-  return( <>
-      {/* {approved ? <p>Aprovado!</p> : <p>Reprovado</p> }*/} {/* Isto é verdadeiro ? Retorno :(se não) retorno */}
-      {/* {approved ? <img src="https://lh3.ggpht.com/-iElosVfo6rU/UchCyJ7yOXI/AAAAAAAABJU/5Bip4eVUR_w/Bob-Esponja_thumb%25255B2%25255D.jpg?imgmax=800" alt="Bobo esponja fazendo joia" /> : <p>Reprovado</p> }  */}
-      {/* {approved ? <img src="https://lh3.ggpht.com/-iElosVfo6rU/UchCyJ7yOXI/AAAAAAAABJU/5Bip4eVUR_w/Bob-Esponja_thumb%25255B2%25255D.jpg?imgmax=800" alt="Bobo esponja fazendo joia" /> : <p>Reprovado</p> }  */}
-      {approved ? <img src="https://pa1.aminoapps.com/6502/0683711d56279455df90340a7192f9c620ea0553_hq.gif" alt="Bobo Esponja fazendo joia" /> : <img src ="https://64.media.tumblr.com/2ddc057ed19e3f8f33efdcd029eff929/7d8c724997a7417c-ba/s540x810/cfad0f3422858b0135351069801e26a131782250.gifv" alt="Bob Esponja chorando" /> } 
-    </> // O nome desta tag é fragmento
-  )
+function Filho({nome = "Mundo"}){
+  return <p>Olá, {nome}</p>
+}
+export default function App(){
+  return <Filho nome="Anna" />
 }
 
+
+// Uso de props com evento onClick
+// function Filho({onAlert}){
+//   return <button onClick={onAlert}>Receba seu alert</button>
+// }
+
+// export default function App(){
+//   const handleAlert = () => alert("Funcionou")
+//   return <Filho onAlert={handleAlert} />
+
+//   // return <Filho onAlert={() => alert("Funcionou")} /> // Não é uma boa prática jogar o arrow function direto
+// }
+
+/* 
 export default function App(){
-    // return <Filho approved /> // O "true" é o valor padrão, então não precisa colocar ele
-   return <Filho approved={false} /> // O "true" é o valor padrão
-  
+  // return <button onClick={() => console.log("Função Funcionando")}>Click Aqui</button>
+  return <button onClick={() => alert("Função Funcionando")}>Click Aqui</button>
 }
+*/
+
+
+// function Filho ({approved}){
+//   return( <>
+//       {/* {approved ? <p>Aprovado!</p> : <p>Reprovado</p> }*/} {/* Isto é verdadeiro ? Retorno :(se não) retorno */}
+//       {approved ? <img src="https://pa1.aminoapps.com/6502/0683711d56279455df90340a7192f9c620ea0553_hq.gif" alt="Bobo Esponja fazendo joia" /> : <img src ="https://64.media.tumblr.com/2ddc057ed19e3f8f33efdcd029eff929/7d8c724997a7417c-ba/s540x810/cfad0f3422858b0135351069801e26a131782250.gifv" alt="Bob Esponja chorando" /> } 
+//     </> // O nome desta tag é fragmento
+//   )
+// }
+
+// export default function App(){
+//     // return <Filho approved /> // O "true" é o valor padrão, então não precisa colocar ele
+//    return <Filho approved={false} /> // O "true" é o valor padrão
+  
+// }
 
 
 /* 

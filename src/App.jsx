@@ -1,3 +1,83 @@
+function Filho ({approved}){
+  return( <>
+      {/* {approved ? <p>Aprovado!</p> : <p>Reprovado</p> }*/} {/* Isto é verdadeiro ? Retorno :(se não) retorno */}
+      {/* {approved ? <img src="https://lh3.ggpht.com/-iElosVfo6rU/UchCyJ7yOXI/AAAAAAAABJU/5Bip4eVUR_w/Bob-Esponja_thumb%25255B2%25255D.jpg?imgmax=800" alt="Bobo esponja fazendo joia" /> : <p>Reprovado</p> }  */}
+      {/* {approved ? <img src="https://lh3.ggpht.com/-iElosVfo6rU/UchCyJ7yOXI/AAAAAAAABJU/5Bip4eVUR_w/Bob-Esponja_thumb%25255B2%25255D.jpg?imgmax=800" alt="Bobo esponja fazendo joia" /> : <p>Reprovado</p> }  */}
+      {approved ? <img src="https://pa1.aminoapps.com/6502/0683711d56279455df90340a7192f9c620ea0553_hq.gif" alt="Bobo Esponja fazendo joia" /> : <img src ="https://64.media.tumblr.com/2ddc057ed19e3f8f33efdcd029eff929/7d8c724997a7417c-ba/s540x810/cfad0f3422858b0135351069801e26a131782250.gifv" alt="Bob Esponja chorando" /> } 
+    </> // O nome desta tag é fragmento
+  )
+}
+
+export default function App(){
+    // return <Filho approved /> // O "true" é o valor padrão, então não precisa colocar ele
+   return <Filho approved={false} /> // O "true" é o valor padrão
+  
+}
+
+
+/* 
+function Filho ({idade}){
+  return(
+    <p>{idade}</p>
+  )
+}
+
+export default function App(){
+  return <Filho idade={25} />
+  
+}
+*/
+
+
+// Uso da prop Children
+// function Filho ({children}){
+//   return(
+//     <div className="filho">
+//       {children}
+//     </div>
+//   )
+// }
+
+// export default function App(){
+//   return <Filho> 
+//             {/* <p>Sou uma tag p passando por filho</p>  */}
+//             <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" alt="Charmander" />
+//           </Filho>;
+  
+// }
+
+
+/*
+import Card from "./components/card"
+
+export default function App(){
+  return <Card 
+              title="Titulo" 
+              description="To steal the life of its target, it slips into the prey’s shadow and silently waits for an opportunity."
+              image="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png"
+              imgAlt="Image Gengar"
+              />
+}
+*/
+
+
+
+// function Filho(props){ // props = é um parâmetro
+//   // return <p>Olá, Mundo!</p>
+
+//   console.log(props)
+//   return <p>{props.title}</p>
+// }
+
+// export default function App(){
+//   return(
+//     <Filho title="Enviando uma mnsagem" />
+//   )
+// }
+
+
+
+/* 
 import Home from "./pages/home/index.jsx"
 
 export default function App(){ // O default só pode ser usado uma vez
@@ -5,3 +85,5 @@ export default function App(){ // O default só pode ser usado uma vez
     <Home />
   )
 }
+*/
+

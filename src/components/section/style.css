@@ -4,3 +4,53 @@
     box-sizing: border-box;
     border: none;
 }
+section{
+    display: flex;
+    margin: 112px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.section-container img{
+    width: 616px;
+    height: 640px;
+}
+
+.section-container{
+    width: 616px;
+    text-align: left;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.section-container p{
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+.section-container p:last-child{
+    font-size: 12px;
+    padding-top: 16px;
+}
+
+.signup{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+input{
+    width: 357px;
+    height: 48px;
+    border: 1px solid #000000;
+}
+
+input::placeholder{
+    color: #505050;
+    font-size: 16px;
+    padding: 12px;
+}

@@ -1,9 +1,17 @@
-function Filho({nome = "Mundo"}){
-  return <p>Olá, {nome}</p>
-}
+import Home from './pages/home/index'
+
 export default function App(){
-  return <Filho nome="Anna" />
+  return(
+    <Home />
+  )
 }
+
+// function Filho({nome = "Mundo"}){
+//   return <p>Olá, {nome}</p>
+// }
+// export default function App(){
+//   return <Filho nome="Anna" />
+// }
 
 
 // Uso de props com evento onClick

@@ -43,14 +43,16 @@ h1{
     align-items: center;
 }
 
-input{
+input[type=email]{
     width: 357px;
     height: 48px;
     border: 1px solid #000000;
+    padding: 12px;
+    font-size: 16px;
 }
 
 input::placeholder{
     color: #505050;
-    font-size: 16px;
+    /* font-size: 16px; */
     padding: 12px;
 }

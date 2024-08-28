@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    gap: 48px;
+    margin: 112px 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 406px;
+    text-align: left;
+}
+.card h3{
+    font-size: 24px;
+    padding-top: 24px;
+    font-weight: bold;
+}
+.card p{
+    font-size: 16px;
+    padding-top: 24px;
+}

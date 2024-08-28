@@ -1,5 +1,5 @@
 import './style.css'
-import Logo from "../../assets/image/logo.svg"
+import Logo from "../../assets/image/Logo.svg"
 import ChevronDown from "../../assets/image/Chevron Down.svg"
 
 export default function Header(){

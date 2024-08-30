@@ -3,7 +3,7 @@ import Cube from '../../assets/image/Cube.svg'
 
 export default function CardsBenefit(){
     return(
-        <section>
+        <section className='card-container'>
             <div className="card">
                 <img src={Cube} alt="Cubo com arestas na cor preta, uma das faces na cor preta e as outras faces na cor branca" />
                 <h3>Highlight benefit two</h3>

@@ -1,24 +1,29 @@
-section{
+.headline-container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 112px 64px;
     gap: 80px;
+    max-width: 1312px;
+}
+.headline-content{
+    display: flex;
+    justify-content: flex-start;
 }
 
-.section-content p{
+.headline-content p{
     font-size: 16px;
     font-weight: 600;
 }
 
-.section-content h2{
+.headline-content h2{
     font-size: 48px;
     font-weight: bold;
     padding-top: 16px;
     padding-bottom: 32px;
 }
 
-.section-content button{
+.headline-content button{
     font-size: 16px;
     border: 1px solid #000000;
     background-color: #FFFFFF;
@@ -27,7 +32,7 @@ section{
     height: 48px;
 }
 
-.section-steps{
+.headline-steps{
     display: flex;
     flex-direction: column;
     gap: 16px;

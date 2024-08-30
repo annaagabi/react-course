@@ -3,8 +3,8 @@ import './style.css'
 
 export default function Section(){
     return(
-        <section>
-            <div className="section-container">
+        <section className="section-container">
+            <div className="section-content">
                 <h1>Resonate with the visitor's problem</h1>
                 <p>Describe exactly what your product or service does to solve this problem. Avoid using verbose words or phrases.</p>
                 <div className="signup">

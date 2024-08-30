@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
 }
-section{
+.section-container{
     display: flex;
     margin: 112px 64px;
     justify-content: center;
@@ -12,12 +12,12 @@ section{
     gap: 80px;
 }
 
-.section-container img{
+.section-content img{
     width: 616px;
     height: 640px;
 }
 
-.section-container{
+.section-content{
     width: 616px;
     text-align: left;
 }
@@ -28,11 +28,11 @@ h1{
     padding-bottom: 24px;
 }
 
-.section-container p{
+.section-content p{
     font-size: 18px;
     padding-bottom: 24px;
 }
-.section-container p:last-child{
+.section-content p:last-child{
     font-size: 12px;
     padding-top: 16px;
 }
@@ -55,4 +55,12 @@ input::placeholder{
     color: #505050;
     /* font-size: 16px; */
     padding: 12px;
+}
+
+.signup button{
+    font-size: 16px;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 132px;
+    height: 40px;
 }

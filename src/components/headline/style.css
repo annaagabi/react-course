@@ -1,15 +1,17 @@
 .headline-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 112px 64px;
     gap: 80px;
-    max-width: 1312px;
+    /* margin: 0 auto; */
+    /* max-width: 1312px; */
 }
+
 .headline-content{
-    display: flex;
-    justify-content: flex-start;
+    max-width: 616px;
 }
+
 
 .headline-content p{
     font-size: 16px;
@@ -36,6 +38,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    max-width: 616px;
 }
 
 .steps{

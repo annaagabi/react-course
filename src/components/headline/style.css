@@ -9,7 +9,7 @@
 }
 
 .headline-content{
-    max-width: 616px;
+    width: 616px;
 }
 
 
@@ -38,20 +38,13 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    max-width: 616px;
+    width: 616px;
 }
 
 .steps{
     display: flex;
     gap: 40px;
     justify-content: center;
-}
-.steps h3{
-    font-size: 20px;
-    font-weight: bold;
-}
-.steps p{
-    font-size: 16px;
 }
 
 .steps-icons{
@@ -63,6 +56,14 @@
 .steps-icons img{
     width: 48px;
     height: 48px;
+}
+.steps-text h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.steps-text p{
+    font-size: 16px;
+    padding-top: 16px;
 }
 
 .line{

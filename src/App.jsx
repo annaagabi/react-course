@@ -1,4 +1,4 @@
-import Card from "../src/fundamentos"
+import Card from "./components/card"
 import Box from '../src/assets/image/Cube.svg'
 
 export default function App(){

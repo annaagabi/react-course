@@ -1,10 +1,10 @@
 import Header from "../../components/header"
 import Section from "../../components/section"
-// import CardsBenefit from "../../components/cards-benefit"
+import CardsBenefit from "../../components/cards-benefit"
 import Headline from "../../components/headline"
 import Describle from "../../components/describle"
-import Card from "../../fundamentos"
-import Box from '../../assets/image/Cube.svg'
+// import Card from "../../components/card"
+// import Box from '../../assets/image/Cube.svg'
 
 export default function Home(){
     return (

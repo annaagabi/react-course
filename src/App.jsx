@@ -32,7 +32,7 @@ export default function App(){
 
 // export default function App(){
 //   return(
-//     <div>
+//     <div className="app-container-card">
 //         <Card 
 //           image={Box}
 //           imgAlt="Imagem de uma caixa"

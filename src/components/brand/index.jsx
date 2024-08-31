@@ -4,6 +4,28 @@ import Master from '../../assets/image/mastercard.png'
 import Visa from '../../assets/image/visa.png'
 import Alelo from '../../assets/image/alelo.png'
 
+// Código Limpo
+const brandImages ={
+    alelo: Alelo,
+    american: American,
+    master: Master,
+    visa: Visa
+}
+
+export default function Brand({ brand }){
+    const ImageSrc = brandImages[brand] // Vai ercorrer o array de marcas
+    return ImageSrc ? <img src={ImageSrc} alt={`Imagem da bandeira ${brand}`} /> : <h1>Selecione uma bandeira válida</h1>
+
+}
+
+/*
+// Código sujo
+
+import './style.css'
+import American from '../../assets/image/american-express.png'
+import Master from '../../assets/image/mastercard.png'
+import Visa from '../../assets/image/visa.png'
+import Alelo from '../../assets/image/alelo.png'
 
 export default function Brand({brand}){
     switch(brand){
@@ -22,3 +44,4 @@ export default function Brand({brand}){
     //     <img src="" alt="Icones de marcas de cartões" />
     // )
 }
+*/

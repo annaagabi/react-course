@@ -13,7 +13,7 @@ const brandImages ={
 }
 
 export default function Brand({ brand }){
-    const ImageSrc = brandImages[brand] // Vai ercorrer o array de marcas
+    const ImageSrc = brandImages[brand] // Vai percorrer o array de marcas
     return ImageSrc ? <img src={ImageSrc} alt={`Imagem da bandeira ${brand}`} /> : <h1>Selecione uma bandeira válida</h1>
 
 }

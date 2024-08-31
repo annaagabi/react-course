@@ -2,7 +2,7 @@ import './style.css'
 import American from '../../assets/image/american-express.png'
 import Master from '../../assets/image/mastercard.png'
 import Visa from '../../assets/image/visa.png'
-import Alelo from '../../assets/image/mastercard.png'
+import Alelo from '../../assets/image/alelo.png'
 
 
 export default function Brand({brand}){

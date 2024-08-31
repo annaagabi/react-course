@@ -1,14 +1,29 @@
-import Brand from './components/brand'
+import Square from './components/square'
 
 export default function App(){
   return(
     <div className="app-container">
-      <Brand 
-          brand="visa"
+      <Square
+          color="blue"
+          position="right"
       />
     </div>
   )
 }
+
+
+
+// import Brand from './components/brand'
+
+// export default function App(){
+//   return(
+//     <div className="app-container">
+//       <Brand 
+//           brand="visa"
+//       />
+//     </div>
+//   )
+// }
 
 
 

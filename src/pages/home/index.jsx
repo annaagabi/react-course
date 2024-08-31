@@ -11,13 +11,27 @@ export default function Home(){
         <div>
         <Header />
         <Section />
-        {/* <CardsBenefit /> */}
-        <Card 
-            image={Box}
-            imgAlt="Imagem de uma caixa"
-            title="Highlight benefit one"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
-        />
+        <CardsBenefit />
+        {/* <div>
+            <Card 
+                image={Box}
+                imgAlt="Imagem de uma caixa"
+                title="Highlight benefit one"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+            />
+            <Card 
+                image={Box}
+                imgAlt="Imagem de uma caixa"
+                title="Highlight benefit two"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+            />
+            <Card 
+                image={Box}
+                imgAlt="Imagem de uma caixa"
+                title="Highlight benefit three"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla."
+            />
+        </div> */}
         <Headline />
         <Describle />
         </div>

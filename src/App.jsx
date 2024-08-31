@@ -1,15 +1,27 @@
-import Square from './components/square'
+import Hero from './components/hero'
 
 export default function App(){
-  return(
-    <div className="app-container">
-      <Square
-          color="blue"
-          position="right"
-      />
-    </div>
-  )
-}
+    return(
+      <div className="app-container">
+        <Hero
+          alignment="right"
+        />
+      </div>
+    )
+  }
+
+// import Square from './components/square'
+
+// export default function App(){
+//   return(
+//     <div className="app-container">
+//       <Square
+//           color="blue"
+//           position="right"
+//       />
+//     </div>
+//   )
+// }
 
 
 

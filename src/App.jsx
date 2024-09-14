@@ -1,12 +1,20 @@
-import Count from "./class/hooks/useState/count";
+import Accordion from "./class/hooks/useState/accordion";
 
 export default function App(){
   return(
-    <div className="app-container">
-      <Count />
-    </div>
+    <Accordion />
   )
 }
+
+// import Count from "./class/hooks/useState/count";
+
+// export default function App(){
+//   return(
+//     <div className="app-container">
+//       <Count />
+//     </div>
+//   )
+// }
 
 // import Hero from './components/hero'
 

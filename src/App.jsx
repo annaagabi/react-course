@@ -1,10 +1,18 @@
-import Example from "./class/hooks/useEffect/example"
+import CountEffect from "./class/hooks/useHooks/countEffect/indesx"
 
 export default function App(){
   return(
-    <Example />
+    <CountEffect />
   )
 }
+
+// import Example from "./class/hooks/useEffect/example"
+
+// export default function App(){
+//   return(
+//     <Example />
+//   )
+// }
 
 // import Accordion from "./class/hooks/useState/accordion";
 

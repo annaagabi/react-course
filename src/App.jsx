@@ -1,10 +1,18 @@
-import Accordion from "./class/hooks/useState/accordion";
+import Example from "./class/hooks/useEffect/example"
 
 export default function App(){
   return(
-    <Accordion />
+    <Example />
   )
 }
+
+// import Accordion from "./class/hooks/useState/accordion";
+
+// export default function App(){
+//   return(
+//     <Accordion />
+//   )
+// }
 
 // import Count from "./class/hooks/useState/count";
 

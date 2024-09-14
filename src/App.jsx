@@ -1,10 +1,18 @@
-import CountEffect from "./class/hooks/useHooks/countEffect/indesx"
+import PokemonApi from "./class/hooks/useHooks/pokemonAPI"
 
 export default function App(){
+  
   return(
-    <CountEffect />
+    <PokemonApi />
   )
 }
+// import CountEffect from "./class/hooks/useHooks/countEffect/indesx"
+
+// export default function App(){
+//   return(
+//     <CountEffect />
+//   )
+// }
 
 // import Example from "./class/hooks/useEffect/example"
 
